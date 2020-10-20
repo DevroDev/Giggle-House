@@ -1,19 +1,18 @@
-import room1 from "./images/details-1.jpeg";
-import room2 from "./images/details-2.jpeg";
-import room3 from "./images/details-3.jpeg";
-import room4 from "./images/details-4.jpeg";
-import img1 from "./images/room-1.jpeg";
-import img2 from "./images/room-2.jpeg";
-import img3 from "./images/room-3.jpeg";
-import img4 from "./images/room-4.jpeg";
-import img5 from "./images/room-5.jpeg";
-import img6 from "./images/room-6.jpeg";
-import img7 from "./images/room-7.jpeg";
-import img8 from "./images/room-8.jpeg";
-import img9 from "./images/room-9.jpeg";
-import img10 from "./images/room-10.jpeg";
-import img11 from "./images/room-11.jpeg";
-import img12 from "./images/room-12.jpeg";
+import room2 from "./images/sneaker-2.jpg";
+import room3 from "./images/sneaker-3.jpg";
+import room4 from "./images/sneaker-1.jpg";
+import img1 from "./images/img-1.jpg";
+import img2 from "./images/img-2.jpg";
+import img3 from "./images/img-3.jpg";
+import img4 from "./images/img-4.jpg";
+import img5 from "./images/img-5.jpg";
+import img6 from "./images/img-6.jpg";
+import img7 from "./images/img-7.jpg";
+import img8 from "./images/img-8.jpg";
+import img9 from "./images/img-9.jpg";
+import img10 from "./images/img-10.jpg";
+import img11 from "./images/img-11.jpg";
+import img12 from "./images/img-12.jpg";
 
 export default [
   {
@@ -21,25 +20,28 @@ export default [
       id: "1"
     },
     fields: {
-      name: "single economy",
-      slug: "single-economy",
-      type: "single",
+      name: "Yeezy Boost 350 V2 Carbon",
+      slug: "yeezy-boost-350-v2-carbon",
+      type: "Yeezy",
+      designer:"Kanye West",
+      technology:"Boost",
+      color:"Black",
       price: 100,
-      size: 200,
+      size: 43,
       capacity: 1,
-      pets: false,
+      box: true,
       breakfast: false,
-      featured: false,
+      featured: true,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+        "The adidas Yeezy Boost 350 V2 ‘Carbon’ features a breathable Primeknit upper in a neutral black and grey finish. The sneaker’s lateral side features a streak of black via the post-dyed monofilament side stripe, separating a light grey weave up top with mostly black construction on the lower half. No-tie bungee laces deliver a secure fit. The sneaker rides on a full-length Boost midsole, surrounded by a yellow-tinged rubber cage.",
       extras: [
-        "Plush pillows and breathable bed linens",
-        "Soft, oversized bath towels",
-        "Full-sized, pH-balanced toiletries",
-        "Complimentary refreshments",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet,",
+        "Lorem ipsum dolor sit amet,",
+        "CLorem ipsum dolor sit amet,",
         "Adequate safety/security",
-        "Internet",
-        "Comfortable beds"
+        "Extra Shoe laces",
+        "Comfortable"
       ],
       images: [
         {
@@ -78,25 +80,28 @@ export default [
       id: "2"
     },
     fields: {
-      name: "single basic",
-      slug: "single-basic",
-      type: "single",
-      price: 150,
-      size: 250,
-      capacity: 1,
-      pets: false,
+      name: "Off-White x Air Rubber Dunk 'Green Strike'",
+      slug: "off-white-x-air-rubber-dunk",
+      type: "Nike",
+      designer:"Virgil Abloh",
+      technology:"Lifestyle",
+      color:"Black",
+      price: 290,
+      size: 42,
+      capacity: 23,
+      box: true,
       breakfast: false,
       featured: false,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+        "Made in collaboration with Virgil Abloh’s luxury streetwear brand, the Off-White x Nike Air Rubber Dunk ‘Green Strike’ delivers a reconstructed take on the classic silhouette, one that incorporates the layered upper of the P-6000 runner. The sneaker’s mostly black palette is disrupted by vibrant green accents, including an outlined Swoosh, ‘Nike Off’ branding on the tongue tag and self-referential ‘Shoelaces’ text. The eye-catching hue is repeated on the sneaker’s tooling, where it frames a visible Air sole unit.",
       extras: [
-        "Plush pillows and breathable bed linens",
-        "Soft, oversized bath towels",
-        "Full-sized, pH-balanced toiletries",
-        "Complimentary refreshments",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet,",
+        "Lorem ipsum dolor sit amet,",
+        "CLorem ipsum dolor sit amet,",
         "Adequate safety/security",
-        "Internet",
-        "Comfortable beds"
+        "Extra Shoe laces",
+        "Comfortable"
       ],
       images: [
         {
@@ -135,25 +140,28 @@ export default [
       id: "3"
     },
     fields: {
-      name: "single standard",
-      slug: "single-standard",
-      type: "single",
-      price: 250,
-      size: 300,
-      capacity: 1,
-      pets: true,
+      name: "Air Jordan 1 Mid 'Chicago Black Toe'",
+      slug: "air-jordan-1-mid-chicago-black-toe",
+      type: "Air Jordan",
+      designer:"Peter Moore",
+      technology:"Air",
+      color:"Red",
+      price: 160,
+      size: 44,
+      capacity: 3,
+      box: true,
       breakfast: false,
-      featured: false,
+      featured: true,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+        "The Air Jordan 1 Mid ‘Chicago Black Toe’ draws inspiration from the sneaker’s 1985 roots. The distinctive color blocking is reminiscent of the OG ‘Chicago’ colorway, applied to a mid-top silhouette and revised with a black finish on the perforated toe box. Jumpman branding adorns the woven tag stitched onto the padded white nylon tongue, while a classic Jordan Wings logo is stamped in black on the lateral collar flap.",
       extras: [
-        "Plush pillows and breathable bed linens",
-        "Soft, oversized bath towels",
-        "Full-sized, pH-balanced toiletries",
-        "Complimentary refreshments",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet,",
+        "Lorem ipsum dolor sit amet,",
+        "CLorem ipsum dolor sit amet,",
         "Adequate safety/security",
-        "Internet",
-        "Comfortable beds"
+        "Extra Shoe laces",
+        "Comfortable"
       ],
       images: [
         {
@@ -192,25 +200,28 @@ export default [
       id: "4"
     },
     fields: {
-      name: "single deluxe",
-      slug: "single-deluxe",
-      type: "single",
-      price: 300,
-      size: 400,
-      capacity: 1,
-      pets: true,
-      breakfast: true,
+      name: "Air Jordan 4 Retro OG 'Bred' 2019",
+      slug: "air-jordan-4-retro-og-bred-2019",
+      type: "Air Jordan",
+      designer:"Peter",
+      technology:"Air",
+      color:"Black",
+      price: 310,
+      size: 40,
+      capacity: 4,
+      box: true,
+      breakfast: false,
       featured: false,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+        "The 2019 edition of the Air Jordan 4 ‘Bred’ celebrates the 30th anniversary of the classic silhouette, appearing in the same colorway that Michael Jordan wore when he sank ‘The Shot’ during the first round of the 1989 NBA playoffs. It’s rendered in a build that’s faithful to the original, complete with a black nubuck upper, visible Air Sole cushioning underfoot and Nike Air branding on the heel.",
       extras: [
-        "Plush pillows and breathable bed linens",
-        "Soft, oversized bath towels",
-        "Full-sized, pH-balanced toiletries",
-        "Complimentary refreshments",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet,",
+        "Lorem ipsum dolor sit amet,",
+        "CLorem ipsum dolor sit amet,",
         "Adequate safety/security",
-        "Internet",
-        "Comfortable beds"
+        "Extra Shoe laces",
+        "Comfortable"
       ],
       images: [
         {
@@ -249,25 +260,28 @@ export default [
       id: "5"
     },
     fields: {
-      name: "double economy",
-      slug: "double-economy",
-      type: "double",
-      price: 200,
-      size: 300,
-      capacity: 2,
-      pets: false,
+      name: "Air Raid OG 'Black Grey'",
+      slug: "air-raid-og-black-grey",
+      type: "Nike",
+      designer:"Unknown",
+      technology:"Air",
+      color:"Black",
+      price: 161,
+      size: 43,
+      capacity: 6,
+      box: true,
       breakfast: false,
       featured: false,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+        "The 2020 reissue of the Nike Air Raid OG ‘Black Grey’ brings back a classic hoops shoe developed specifically for the blacktop. The build on the rugged silhouette is faithful to Tinker Hatfield’s original 1992 creation, featuring a mesh and leather upper secured with an instantly recognizable cross-strap design. Underfoot, extra-durable rubber is utilized on the outsole, inscribed with the phrase ‘For Outdoor Use Only.’",
       extras: [
-        "Plush pillows and breathable bed linens",
-        "Soft, oversized bath towels",
-        "Full-sized, pH-balanced toiletries",
-        "Complimentary refreshments",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet,",
+        "Lorem ipsum dolor sit amet,",
+        "CLorem ipsum dolor sit amet,",
         "Adequate safety/security",
-        "Internet",
-        "Comfortable beds"
+        "Extra Shoe laces",
+        "Comfortable"
       ],
       images: [
         {
@@ -306,25 +320,28 @@ export default [
       id: "6"
     },
     fields: {
-      name: "double basic",
-      slug: "double-basic",
-      type: "double",
-      price: 250,
-      size: 350,
-      capacity: 2,
-      pets: false,
+      name: "LeBron 18 'Lakers'",
+      slug: "lebron-18-laker",
+      type: "Nike",
+      designer:"Jason Petrie",
+      technology:"Zoom Air",
+      color:"Black",
+      price: 380,
+      size: 45,
+      capacity: 13,
+      box: true,
       breakfast: false,
-      featured: false,
+      featured: true,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+        "The Nike LeBron 18 ‘Lakers’ dresses LeBron James’ eighteenth signature shoe in the signature colors of Los Angeles’ storied NBA franchise. A mostly black finish is utilized on the KnitPosite 2.0 upper, accented with purple fibers that match the semi-translucent TPU heel counter. Swoosh branding on the forefoot and medial heel shines in metallic gold. The sneaker rides on a midsole that houses a full-length Zoom Air unit, its back half nestled within the visible Max Air unit in the heel.",
       extras: [
-        "Plush pillows and breathable bed linens",
-        "Soft, oversized bath towels",
-        "Full-sized, pH-balanced toiletries",
-        "Complimentary refreshments",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet,",
+        "Lorem ipsum dolor sit amet,",
+        "CLorem ipsum dolor sit amet,",
         "Adequate safety/security",
-        "Internet",
-        "Comfortable beds"
+        "Extra Shoe laces",
+        "Comfortable"
       ],
       images: [
         {
@@ -363,25 +380,28 @@ export default [
       id: "7"
     },
     fields: {
-      name: "double standard",
-      slug: "double-standard",
-      type: "double",
-      price: 300,
-      size: 400,
+      name: "Ralph Sampson MC 'Wildcats'",
+      slug: "ralph-sampson-mc-wildcats",
+      type: "Puma",
+      designer:"Ralph",
+      technology:"None",
+      color:"White",
+      price: 180,
+      size: 43,
       capacity: 2,
-      pets: true,
+      box: true,
       breakfast: false,
       featured: false,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+        "Coming Soon",
       extras: [
-        "Plush pillows and breathable bed linens",
-        "Soft, oversized bath towels",
-        "Full-sized, pH-balanced toiletries",
-        "Complimentary refreshments",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet,",
+        "Lorem ipsum dolor sit amet,",
+        "CLorem ipsum dolor sit amet,",
         "Adequate safety/security",
-        "Internet",
-        "Comfortable beds"
+        "Extra Shoe laces",
+        "Comfortable"
       ],
       images: [
         {
@@ -420,25 +440,28 @@ export default [
       id: "8"
     },
     fields: {
-      name: "double deluxe",
-      slug: "double-deluxe",
-      type: "double",
-      price: 400,
-      size: 500,
-      capacity: 2,
-      pets: true,
-      breakfast: true,
-      featured: true,
+      name: "Pharrell x NMD Human Race 'Extra Eye - Bold Orange'",
+      slug: "pharrell-x-nmd-human-race",
+      type: "Adidas",
+      designer:"Nic Galway",
+      technology:"Boost",
+      color:"Orange",
+      price: 245,
+      size: 43,
+      capacity: 1,
+      box: true,
+      breakfast: false,
+      featured: false,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+        "The adidas Yeezy Boost 350 V2 ‘Carbon’ features a breathable Primeknit upper in a neutral black and grey finish. The sneaker’s lateral side features a streak of black via the post-dyed monofilament side stripe, separating a light grey weave up top with mostly black construction on the lower half. No-tie bungee laces deliver a secure fit. The sneaker rides on a full-length Boost midsole, surrounded by a yellow-tinged rubber cage.",
       extras: [
-        "Plush pillows and breathable bed linens",
-        "Soft, oversized bath towels",
-        "Full-sized, pH-balanced toiletries",
-        "Complimentary refreshments",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet,",
+        "Lorem ipsum dolor sit amet,",
+        "CLorem ipsum dolor sit amet,",
         "Adequate safety/security",
-        "Internet",
-        "Comfortable beds"
+        "Extra Shoe laces",
+        "Comfortable"
       ],
       images: [
         {
@@ -477,25 +500,28 @@ export default [
       id: "9"
     },
     fields: {
-      name: "family economy",
-      slug: "family-economy",
-      type: "family",
-      price: 300,
-      size: 500,
-      capacity: 3,
-      pets: false,
+      name: "Yeezy Boost 700 'Inertia'",
+      slug: "yeezy-boost-700-inertia",
+      type: "Yeezy",
+      designer:"Kanye West",
+      technology:"Boost",
+      color:"Grey",
+      price: 385,
+      size: 44,
+      capacity: 6,
+      box: true,
       breakfast: false,
       featured: false,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+        "The adidas Yeezy Boost 700 ‘Inertia’ is part of the Yeezy Season 8 lineup that launched March 2019. The ‘Inertia’ colorway showcases the original 700 upper, with a heavily paneled construction made with premium suede, mesh and smooth leather sections. Cast primarily in cool grey tones, the sneaker includes hits of Tangerine for contrast. The shoe’s signature chunky midsole is equipped with full-length Boost cushioning for responsive comfort.",
       extras: [
-        "Plush pillows and breathable bed linens",
-        "Soft, oversized bath towels",
-        "Full-sized, pH-balanced toiletries",
-        "Complimentary refreshments",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet,",
+        "Lorem ipsum dolor sit amet,",
+        "CLorem ipsum dolor sit amet,",
         "Adequate safety/security",
-        "Internet",
-        "Comfortable beds"
+        "Extra Shoe laces",
+        "Comfortable"
       ],
       images: [
         {
@@ -534,25 +560,28 @@ export default [
       id: "10"
     },
     fields: {
-      name: "family basic",
-      slug: "family-basic",
-      type: "family",
-      price: 350,
-      size: 550,
-      capacity: 4,
-      pets: false,
+      name: "Old Skool 'Red Checkerboard'",
+      slug: "old-skool-red-checkerboard",
+      type: "Vans",
+      designer:"Paul Van Doren",
+      technology:"Boost",
+      color:"Red",
+      price: 54,
+      size: 42,
+      capacity: 8,
+      box: true,
       breakfast: false,
       featured: false,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+        "The Vans Old Skool 'Red Checkerboard' features a red and white checkerboard canvas upper with red suede on the toe, heel, and eyelets, all atop a signature waffle outsole. Released in June 2017, the Vans Old Skool Checkerboard Pack also included blue and black colorways.",
       extras: [
-        "Plush pillows and breathable bed linens",
-        "Soft, oversized bath towels",
-        "Full-sized, pH-balanced toiletries",
-        "Complimentary refreshments",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet,",
+        "Lorem ipsum dolor sit amet,",
+        "CLorem ipsum dolor sit amet,",
         "Adequate safety/security",
-        "Internet",
-        "Comfortable beds"
+        "Extra Shoe laces",
+        "Comfortable"
       ],
       images: [
         {
@@ -591,25 +620,28 @@ export default [
       id: "11"
     },
     fields: {
-      name: "family standard",
-      slug: "family-standard",
-      type: "family",
-      price: 400,
-      size: 600,
-      capacity: 5,
-      pets: true,
+      name: "Air Jordan 1 Retro High OG 'Royal Toe'",
+      slug: "air-jordan-1-retro-high-og-royal-toe",
+      type: "Air Jordan",
+      designer:"Peter Moree",
+      technology:"Air",
+      color:"Blue",
+      price: 227,
+      size: 39,
+      capacity: 3,
+      box: true,
       breakfast: false,
       featured: false,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+        "The Air Jordan 1 Retro High OG 'Royal Toe' applies a familiar blend of colors to the iconic silhouette. The all-leather upper features a white base with contrasting black overlays and pops of Game Royal at the collar, toe box and rubber outsole. A lightly padded nylon tongue in black is topped with a Nike Air tongue tag, while the classic Jordan Wings logo appears in white on the lateral collar flap.",
       extras: [
-        "Plush pillows and breathable bed linens",
-        "Soft, oversized bath towels",
-        "Full-sized, pH-balanced toiletries",
-        "Complimentary refreshments",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet,",
+        "Lorem ipsum dolor sit amet,",
+        "CLorem ipsum dolor sit amet,",
         "Adequate safety/security",
-        "Internet",
-        "Comfortable beds"
+        "Extra Shoe laces",
+        "Comfortable"
       ],
       images: [
         {
@@ -648,25 +680,28 @@ export default [
       id: "12"
     },
     fields: {
-      name: "family deluxe",
-      slug: "family-deluxe",
-      type: "family",
-      price: 500,
-      size: 700,
-      capacity: 6,
-      pets: true,
-      breakfast: true,
-      featured: true,
+      name: "Yeezy Boost 350 V2 'Israfil'",
+      slug: "yeezy-boost-350-v2-israfil",
+      type: "Yeezy",
+      designer:"Kanye West",
+      technology:"Boost",
+      color:"Grey",
+      price: 100,
+      size: 46,
+      capacity: 5,
+      box: true,
+      breakfast: false,
+      featured: false,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+        "The adidas Yeezy Boost 350 V2 ‘Carbon’ features a breathable Primeknit upper in a neutral black and grey finish. The sneaker’s lateral side features a streak of black via the post-dyed monofilament side stripe, separating a light grey weave up top with mostly black construction on the lower half. No-tie bungee laces deliver a secure fit. The sneaker rides on a full-length Boost midsole, surrounded by a yellow-tinged rubber cage.",
       extras: [
-        "Plush pillows and breathable bed linens",
-        "Soft, oversized bath towels",
-        "Full-sized, pH-balanced toiletries",
-        "Complimentary refreshments",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet,",
+        "Lorem ipsum dolor sit amet,",
+        "CLorem ipsum dolor sit amet,",
         "Adequate safety/security",
-        "Internet",
-        "Comfortable beds"
+        "Extra Shoe laces",
+        "Comfortable"
       ],
       images: [
         {
@@ -700,61 +735,4 @@ export default [
       ]
     }
   },
-  {
-    sys: {
-      id: "13"
-    },
-    fields: {
-      name: "presidential",
-      slug: "presidential-room",
-      type: "presidential",
-      price: 600,
-      size: 1000,
-      capacity: 10,
-      pets: true,
-      breakfast: true,
-      featured: true,
-      description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
-      extras: [
-        "Plush pillows and breathable bed linens",
-        "Soft, oversized bath towels",
-        "Full-sized, pH-balanced toiletries",
-        "Complimentary refreshments",
-        "Adequate safety/security",
-        "Internet",
-        "Comfortable beds"
-      ],
-      images: [
-        {
-          fields: {
-            file: {
-              url: room1
-            }
-          }
-        },
-        {
-          fields: {
-            file: {
-              url: room2
-            }
-          }
-        },
-        {
-          fields: {
-            file: {
-              url: room3
-            }
-          }
-        },
-        {
-          fields: {
-            file: {
-              url: room4
-            }
-          }
-        }
-      ]
-    }
-  }
 ];

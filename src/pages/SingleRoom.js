@@ -27,9 +27,9 @@ export default class SingleRoom extends Component {
     if (!room) {
       return (
         <div className="error">
-          <h3> no such room could be found...</h3>
-          <Link to="/rooms" className="btn-primary">
-            back to rooms
+          <h3> Result is Not Found</h3>
+          <Link to="/sneakers" className="btn-primary">
+            back to sneakers
           </Link>
         </div>
       );
@@ -37,13 +37,17 @@ export default class SingleRoom extends Component {
     const {
       name,
       description,
+      type,
       capacity,
       size,
       price,
       extras,
       breakfast,
-      pets,
+      box,
       images,
+      technology,
+      designer,
+      color
     } = room;
     const [main, ...defaultImages] = images;
     console.log(defaultImages);
@@ -51,9 +55,9 @@ export default class SingleRoom extends Component {
     return (
       <>
         <StyledHero img={images[0] || this.state.defaultBcg}>
-          <Banner title={`${name} room`}>
-            <Link to="/rooms" className="btn-primary">
-              back to rooms
+          <Banner title={`${name}`}>
+            <Link to="/sneakers" className="btn-primary">
+              back to sneakers
             </Link>
           </Banner>
         </StyledHero>
@@ -69,14 +73,18 @@ export default class SingleRoom extends Component {
               <p>{description}</p>
             </article>
             <article className="info">
-              <h3>info</h3>
+              <Link to="/cart" className="btn-primary" style={{marginBottom:20}}>Buy Now</Link>
+              <h6>Brand : {type}</h6>
               <h6>price : ${price}</h6>
-              <h6>size : {size} SQFT</h6>
+              <h6>size : {size} EU</h6>
+              <h6>Technology : {technology}</h6>
+              <h6>Designer : {designer}</h6>
+              <h6>Color : {color}</h6>
               <h6>
-                max capacity :
-                {capacity > 1 ? `${capacity} people` : `${capacity} person`}
+                Instock :
+                {capacity > 1 ? `${capacity} pairs left` : `${capacity} pair left`}
               </h6>
-              <h6>{pets ? "pets allowed" : "no pets allowed"}</h6>
+              <h6>{box ? "Box included" : "no box included"}</h6>
               <h6>{breakfast && "free breakfast included"}</h6>
             </article>
           </div>

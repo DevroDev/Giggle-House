@@ -20,7 +20,7 @@ const RoomsFilter = ({ rooms }) => {
     minSize,
     maxSize,
     breakfast,
-    pets,
+    box,
   } = context;
 
   // get unique types
@@ -42,11 +42,11 @@ const RoomsFilter = ({ rooms }) => {
   ));
   return (
     <section className="filter-container">
-      <Title title="search rooms" />
+      <Title title="search sneakers" />
       <form className="filter-form">
         {/* select type */}
         <div className="form-group">
-          <label htmlFor="type">room type</label>
+          <label htmlFor="type">Brand</label>
           <select
             name="type"
             id="type"
@@ -60,7 +60,7 @@ const RoomsFilter = ({ rooms }) => {
         {/* end of select type */}
         {/* guests  */}
         <div className="form-group">
-          <label htmlFor="capacity">Guests</label>
+          <label htmlFor="capacity">Stock</label>
           <select
             name="capacity"
             id="capacity"
@@ -74,7 +74,7 @@ const RoomsFilter = ({ rooms }) => {
         {/* end of guests */}
         {/* room price */}
         <div className="form-group">
-          <label htmlFor="price">room price ${price}</label>
+          <label htmlFor="price">Price Range ${price}</label>
           <input
             type="range"
             name="price"
@@ -89,7 +89,7 @@ const RoomsFilter = ({ rooms }) => {
         {/* end of room price*/}
         {/* size */}
         <div className="form-group">
-          <label htmlFor="price">room size </label>
+          <label htmlFor="price">Shoe size </label>
           <div className="size-inputs">
             <input
               type="number"
@@ -118,16 +118,16 @@ const RoomsFilter = ({ rooms }) => {
               checked={breakfast}
               onChange={handleChange}
             />
-            <label htmlFor="breakfast">breakfast</label>
+            <label htmlFor="breakfast">Extra laces</label>
           </div>
           <div className="single-extra">
             <input
               type="checkbox"
               name="pets"
-              checked={pets}
+              checked={box}
               onChange={handleChange}
             />
-            <label htmlFor="breakfast">pets</label>
+            <label htmlFor="breakfast">box</label>
           </div>
         </div>
         {/* end of extras type */}

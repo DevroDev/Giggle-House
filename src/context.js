@@ -104,7 +104,7 @@ export default class RoomProvider extends Component {
       minSize,
       maxSize,
       breakfast,
-      pets,
+      box,
     } = this.state;
 
     let tempRooms = [...rooms];
@@ -131,8 +131,8 @@ export default class RoomProvider extends Component {
       tempRooms = tempRooms.filter((room) => room.breakfast === true);
     }
     //filter by pets
-    if (pets) {
-      tempRooms = tempRooms.filter((room) => room.pets === true);
+    if (box) {
+      tempRooms = tempRooms.filter((room) => room.box === true);
     }
     this.setState({
       sortedRooms: tempRooms,
